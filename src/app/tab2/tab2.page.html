@@ -1,15 +1,15 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="end">
-      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      <ion-icon color="dark" slot="icon-only" name="person-circle"></ion-icon>
     </ion-buttons>
-    <ion-title>Cardápio</ion-title>
+    <ion-title color="dark">Cardápio</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="bege">
 
-  <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  <ion-searchbar placeholder="Buscar" class="marrom"></ion-searchbar>
 
   <ion-grid>
     <ion-row>
@@ -18,31 +18,36 @@
 
         <ion-card>
 
-          <ion-item>
+          <ion-item class="marrom">
             <img src="https://static.paodeacucar.com/img/uploads/1/35/12467035.png" alt="Água">
           </ion-item>
 
-          <ion-item>
+          <ion-item class="marrom">
             <ion-label>Água</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 6,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
         </ion-card>
 
       </ion-col>
-      
+
       <ion-col size="6">
 
         <ion-card>
-
-          <ion-item>
-            <img src="https://supercordeiro.com.br/wp-content/uploads/2020/11/refrigerante_coca_cola_pet_2l.png" alt="Coca-cola">
+          <ion-item class="marrom">
+            <img src="https://supercordeiro.com.br/wp-content/uploads/2020/11/refrigerante_coca_cola_pet_2l.png"
+              alt="Coca-cola">
           </ion-item>
 
-          <ion-item>
+          <ion-item class="marrom">
             <ion-label>Coca-Cola</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 10,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
-
         </ion-card>
 
       </ion-col>
@@ -51,13 +56,18 @@
 
         <ion-card>
 
-          <ion-item>
-            <img src="http://1.bp.blogspot.com/-9VcgC7swYkc/UlI80YwLvQI/AAAAAAAAZC4/KZxOHhPxl14/s1600/Ta%C3%A7a-de-Vinho-em-png-queroiamgem-Cei%C3%A7a-Crispim+(2).png" alt="Vinho">
+          <ion-item class="marrom">
+            <img
+              src="http://1.bp.blogspot.com/-9VcgC7swYkc/UlI80YwLvQI/AAAAAAAAZC4/KZxOHhPxl14/s1600/Ta%C3%A7a-de-Vinho-em-png-queroiamgem-Cei%C3%A7a-Crispim+(2).png"
+              alt="Vinho">
           </ion-item>
 
-          <ion-item>
+          <ion-item class="marrom">
             <ion-label>Vinho</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 18,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
         </ion-card>
 
@@ -67,12 +77,15 @@
 
         <ion-card>
 
-          <ion-item>
-            <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Caneca-Cerveja-PNG.png" alt="Cerveja">
+          <ion-item class="marrom">
+            <img src="https://www.imagensempng.com.br/wp-content/uploads/2021/07/11-1.png" alt="Cerveja">
           </ion-item>
-          <ion-item>
+          <ion-item class="marrom">
             <ion-label>Cerveja</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 4,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
         </ion-card>
       </ion-col>
@@ -81,13 +94,18 @@
 
         <ion-card>
 
-          <ion-item>
-            <img src="http://assets.stickpng.com/thumbs/587e33b19686194a55adab83.png" alt="Caipirinha">
+          <ion-item class="marrom">
+            <img
+              src="https://static.wixstatic.com/media/c4b5e8_675ad324a37e47c2a6cbe341dc153eb9~mv2.png/v1/fit/w_475%2Ch_452%2Cal_c/file.png"
+              alt="Caipirinha">
           </ion-item>
-          
-          <ion-item>
+
+          <ion-item class="marrom">
             <ion-label>Caipirinha</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 16,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
 
         </ion-card>
@@ -98,12 +116,15 @@
 
         <ion-card>
 
-          <ion-item>
+          <ion-item class="marrom">
             <img src="https://i.pinimg.com/originals/47/54/18/475418e727b8460fc66932472d409ace.png" alt="Suco">
           </ion-item>
-          <ion-item>
+          <ion-item class="marrom">
             <ion-label>Sucos</ion-label>
-            <ion-icon name="cart" slot="end"></ion-icon>
+            <ion-button>
+              <ion-label>R$ 10,00</ion-label>
+              <ion-icon name="cart" slot="end"></ion-icon>
+            </ion-button>
           </ion-item>
         </ion-card>
 

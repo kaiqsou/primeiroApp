@@ -1,58 +1,58 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="end">
-      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      <ion-icon color="dark" slot="icon-only" name="person-circle"></ion-icon>
     </ion-buttons>
-    <ion-title>Cardápio</ion-title>
+    <ion-title color="dark">Cardápio</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-searchbar  placeholder="Buscar"></ion-searchbar>
+<ion-content [fullscreen]="true" color="bege">
+  <ion-searchbar  placeholder="Buscar" class="marrom"></ion-searchbar>
   
-  <ion-list-header>
+  <ion-list-header color="bege">
     <ion-label>Pizzas</ion-label>
   </ion-list-header>
 
-  <ion-list>
-    <ion-item>
+  <ion-list class="noPadding" color="bege">
+    <ion-item color="bege">
       <ion-thumbnail slot="start">
         <img class="pizzas" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQtCKdq9fQHLEbuB4TwlBX4U-f3sdSdfGZQ&usqp=CAU">
       </ion-thumbnail>
-      <ion-label>Portuguesa</ion-label>
-      <ion-badge color="danger" slot="end">R$ 21,99</ion-badge>
+      <ion-label color="light">Portuguesa</ion-label>
+      <ion-badge slot="end">R$ 21,99</ion-badge>
     </ion-item>
 
-    <ion-item>
+    <ion-item color="bege">
       <ion-thumbnail slot="start">
         <img class="pizzas" src="https://a-static.mlcdn.com.br/1500x1500/pizza-quatro-queijos-saborosa-e-caprichada/restauranteepizzariasensacao/4bb3c9cabdbc11eba9914201ac18500e/147dae5246b08a5fce86b974ae2fb6df.jpeg">
      </ion-thumbnail>
-      <ion-label>4 Queijos</ion-label>
-      <ion-badge color="danger" slot="end">R$ 25,99</ion-badge>
+      <ion-label color="light">4 Queijos</ion-label>
+      <ion-badge slot="end">R$ 25,99</ion-badge>
     </ion-item>
 
-    <ion-item>
+    <ion-item color="bege">
       <ion-thumbnail slot="start">
         <img class="pizzas" src="https://image.gplustogo.com.br/produto/345/t8134.jpg?v=1">
       </ion-thumbnail>
-      <ion-label>Frango com catupiry</ion-label>
-      <ion-badge color="danger" slot="end">R$ 21,99</ion-badge>
+      <ion-label color="light">Frango com catupiry</ion-label>
+      <ion-badge slot="end">R$ 21,99</ion-badge>
     </ion-item>
 
-    <ion-item>
+    <ion-item color="bege"> 
       <ion-thumbnail slot="start">
         <img class="pizzas" src="https://claudia.abril.com.br/wp-content/uploads/2020/02/pizza-brocolis-caboclo.jpg">
       </ion-thumbnail>
-      <ion-label>Brocolis</ion-label>
-      <ion-badge color="danger" slot="end">R$ 22,99</ion-badge>
+      <ion-label color="light">Brocolis</ion-label>
+      <ion-badge slot="end">R$ 22,99</ion-badge>
     </ion-item>
 
-    <ion-item>
+    <ion-item color="bege">
       <ion-thumbnail slot="start">
         <img class="pizzas" src="https://pizzariadesucesso.com/wp-content/uploads/2018/05/foto_pizza_baiana_600x402.jpg">
       </ion-thumbnail>
-      <ion-label>Baiana</ion-label>
-      <ion-badge color="danger" slot="end">R$ 25,99</ion-badge>
+      <ion-label color="light">Baiana</ion-label>
+      <ion-badge slot="end">R$ 25,99</ion-badge>
     </ion-item>
   </ion-list>
 
